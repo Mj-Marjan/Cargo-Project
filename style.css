@@ -60,10 +60,44 @@ nav ul li a {
 .banner h1 {
     font-size: 68px;
     font:bold;
-    /* margin-bottom: 20px; */
+    line-height: 1.1;
+    margin-bottom: 20px;
 }
 .banner p {
     font-size: 20px;
-    margin-top: -40px;
+    /* margin-top: -40px; */
     margin-bottom: 30px;
+}
+.traking-box{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    border: 1px solid #89CE14;
+    border-radius: 50px;
+    padding: 3px;
+    background: linear-gradient(to right, rgba(20,20,20,0.6), rgba(0,0,0,0.2));
+    backdrop-filter: blur(5px);
+    margin-bottom: 30px;
+}
+.traking-box input{
+    flex: 1;
+    border: none;
+   padding: 12px 25px;
+   outline: none;
+   background: transparent;
+   color: #fff;
+    font-size: 16px;
+}
+.traking-box input::placeholder{
+    color: rgba(255,255,255,0.6);
+}
+.traking-box button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #00b09b, #89ce14);
+    cursor: pointer;
+    transition: 0.3s ease;
 }
